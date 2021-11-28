@@ -1,11 +1,10 @@
 header{
-  height: 35vh;
+  height: 20vh;
   display:flex;
   align-items: center;
   justify-content: center;
   @include tablet{
     justify-content: space-between;
-    height: 20vh;
   }
   @include desktop;
   .logo{
@@ -14,7 +13,7 @@ header{
     padding:0.2em ;
     display:inline-block;
     border-radius:7px;
-    font-size: 2.25em;
+    font-size: 2.5em;
     font-family: 'Oleo Script', cursive;
     letter-spacing:0.1em;
     font-weight:300;
