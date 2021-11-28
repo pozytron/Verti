@@ -3,5 +3,10 @@
     @content;
   }
 }
-// zrobić mixin dla desktopu
-// ustawić menu na desktopy
+@mixin desktop{
+  @media screen and (min-width:1250px){
+    max-width: 1200px;
+    margin: 0 auto;
+    @content;
+  }
+}

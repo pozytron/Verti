@@ -7,6 +7,7 @@ header{
     justify-content: space-between;
     height: 20vh;
   }
+  @include desktop;
   .logo{
     color:white;
     background-color:$logo-background-color;
