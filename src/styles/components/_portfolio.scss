@@ -1,0 +1,29 @@
+.portfolio{
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.05);
+  margin-top:2em;
+  .project{
+    background-color: white;
+    margin-top: 2em;
+    border-radius: 6px;
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.05);
+    .project__thumbnail{
+      border-radius: 6px 6px 0 0;
+      width: 100%;
+    }
+    .project__content{
+      padding: 2em;
+    }
+    .project__title{
+      font-size:1.5em;
+      font-weight: 900;
+    }
+    .project__tags{
+      margin: 1em 0;
+    }
+    .project__description{
+      margin-top: 2em;
+      line-height: 2em;
+    }
+  }
+}
